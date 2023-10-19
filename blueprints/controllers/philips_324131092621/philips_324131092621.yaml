@@ -163,7 +163,7 @@ blueprint:
           min: 1
           max: 5000
           mode: slider
-          step: 1
+          step: 20
     button_off_long_loop:
       name: (Optional) Off button long press - loop until release
       description: Loop the off button action until the button is released.
@@ -181,7 +181,7 @@ blueprint:
           min: 1
           max: 5000
           mode: slider
-          step: 1
+          step: 20
     button_up_long_loop:
       name: (Optional) Up button long press - loop until release
       description: Loop the up button action until the button is released.
@@ -199,7 +199,7 @@ blueprint:
           min: 1
           max: 5000
           mode: slider
-          step: 1
+          step: 20
     button_down_long_loop:
       name: (Optional) Down button long press - loop until release
       description: Loop the down button action until the button is released.
@@ -217,7 +217,7 @@ blueprint:
           min: 1
           max: 5000
           mode: slider
-          step: 1
+          step: 20
     # inputs for enabling double press events
     button_on_double_press:
       name: (Optional) Expose on button double press event
@@ -254,7 +254,7 @@ blueprint:
           max: 5000
           unit_of_measurement: milliseconds
           mode: box
-          step: 10
+          step: 200
     helper_debounce_delay:
       name: (Optional) Helper - Debounce delay
       description:
@@ -267,7 +267,7 @@ blueprint:
           max: 1000
           unit_of_measurement: milliseconds
           mode: box
-          step: 10
+          step: 200
 # Automation schema
 variables:
   # convert input tags to variables, to be used in templates
